@@ -453,15 +453,24 @@ ANIMATION
 
 }
 
-@Keyframes cloud-move{
+@-webkit-keyframes cloud-move{
   from {
     -webkit-transform: translate(17px, 50px);
-        -ms-transform: translate(17px, 50px);
             transform: translate(17px, 50px);
   }
   to{
     -webkit-transform: translate(200px, 50px);
-        -ms-transform: translate(200px, 50px);
+            transform: translate(200px, 50px);
+  }
+}
+
+@keyframes cloud-move{
+  from {
+    -webkit-transform: translate(17px, 50px);
+            transform: translate(17px, 50px);
+  }
+  to{
+    -webkit-transform: translate(200px, 50px);
             transform: translate(200px, 50px);
   }
 }
