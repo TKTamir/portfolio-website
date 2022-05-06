@@ -295,18 +295,20 @@ Styling for home page main content
 /*Responsive web page settings*/
 @media all and (max-width:500px) {
   .project-list {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
 
 
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 501px) and (max-width: 750px){
   .project-list {
-    grid-template-columns:  1fr 1fr ;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 751px) {
   .project-list {
     grid-gap: 10px;
   }
