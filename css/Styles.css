@@ -91,6 +91,7 @@ footer{
   flex-direction: column;
   background-color: var(--panel-color);
 }
+/*sets footer to bottom and removes white gap below it*/
 #home-footer{
 position: static;
 width:100%;

@@ -99,10 +99,15 @@ footer{
           flex-direction: column;
   background-color: #bccad6;
 }
+/*sets footer to bottom and removes white gap below it*/
 #home-footer{
-position:absolute;
+position: static;
 width:100%;
+padding: 10px;
+margin: 400px auto;
+margin-bottom: 0px ;
 }
+
 
   /*Draws line under footer text*/
   .social-media-paragraph{
