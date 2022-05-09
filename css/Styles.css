@@ -242,6 +242,9 @@ Styling for home page main content
   text-align: center;
 }
 
+.about-me-bio{
+  padding: 10px;
+}
 /*Center table in about page*/
 .about-me-bio2, .table-center{
   margin-right:auto;
@@ -276,6 +279,7 @@ Styling for home page main content
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 5px;
+  padding: 10px;
 
 }
 /*Grid styling*/
@@ -298,6 +302,9 @@ Styling for home page main content
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+  .profile-portrait {
+    padding: 10px;
+  }
 }
 
 
@@ -305,6 +312,9 @@ Styling for home page main content
   .project-list {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+  .profile-portrait {
+    padding: 10px;
   }
 }
 
