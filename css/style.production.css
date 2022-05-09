@@ -295,6 +295,53 @@ Styling for home page main content
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 5px;
   padding: 10px;
+}
+
+.project-list > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+
+}
+.project-list > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+
+}
+.project-list > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+
+}
+.project-list > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+
+}
+.project-list > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+
+}
+.project-list > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+
+}
+.project-list > *:nth-child(7) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+
+}
+.project-list > *:nth-child(8) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+
+}
+.project-list > *:nth-child(9) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+
+}
 
 }
 /*Grid styling*/
