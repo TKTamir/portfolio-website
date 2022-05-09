@@ -276,6 +276,7 @@ Styling for home page main content
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 5px;
+  padding: 10px;
 
 }
 /*Grid styling*/
