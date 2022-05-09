@@ -99,10 +99,15 @@ footer{
           flex-direction: column;
   background-color: #bccad6;
 }
+/*sets footer to bottom and removes white gap below it*/
 #home-footer{
-position:absolute;
+position: static;
 width:100%;
+padding: 10px;
+margin: 400px auto;
+margin-bottom: 0px ;
 }
+
 
   /*Draws line under footer text*/
   .social-media-paragraph{
@@ -391,14 +396,14 @@ Styling for home page main content
 }
 
 
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 501px) and (max-width: 750px){
   .project-list {
-    -ms-grid-columns:  1fr 5px 1fr;
-    grid-template-columns:  1fr 1fr ;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 751px) {
   .project-list {
     grid-gap: 10px;
   }
@@ -448,15 +453,24 @@ ANIMATION
 
 }
 
-@Keyframes cloud-move{
+@-webkit-keyframes cloud-move{
   from {
     -webkit-transform: translate(17px, 50px);
-        -ms-transform: translate(17px, 50px);
             transform: translate(17px, 50px);
   }
   to{
     -webkit-transform: translate(200px, 50px);
-        -ms-transform: translate(200px, 50px);
+            transform: translate(200px, 50px);
+  }
+}
+
+@keyframes cloud-move{
+  from {
+    -webkit-transform: translate(17px, 50px);
+            transform: translate(17px, 50px);
+  }
+  to{
+    -webkit-transform: translate(200px, 50px);
             transform: translate(200px, 50px);
   }
 }
