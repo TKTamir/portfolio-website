@@ -485,6 +485,7 @@ div.container a:hover:after {
 /* Styling for form validation */
 .input-wrapper {
   margin-bottom: 2px;
+  text-align: center;
 }
 
 label {
