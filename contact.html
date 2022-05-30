@@ -1,107 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="img/favicon-32x32.png">
   <title>Contact - Tamir Kahalany </title>
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.production.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Condensed&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-  <header class="page-header">
+    <header class="page-header">
 
 
     <div class="nav-logo">
-      <!-- Make a better Logo-->
-      <a href="index.html"> <img src="img/logotamir.png" alt="logo" class="nav-logo"></a>
-    </div>
-    <div class="container">
-      <nav class="nav">
-        <ul role="menubar" class="nav-list">
-          <li role="presentation" class="nav-list__item">
-            <a href="index.html" role="menuitem" class="nav-list__link">Home</a>
-          </li>
-          <li role="presentation" class="nav-list__item">
-            <a href="about.html" role="menuitem" class="nav-list__link">About</a>
-          </li>
-          <li role="presentation" class="nav-list__item">
-            <a href="work.html" role="menuitem" class="nav-list__link">Work</a>
-          </li>
-          <li role="presentation" class="nav-list__item">
-            <a href="contact.html" role="menuitem" class="nav-list__link nav-list__item--active">Contact</a>
-          </li>
-        </ul>
+    <!-- Make a better Logo-->
+  <a href="index.html">  <img src="img/logotamir.png" alt="logo" class="nav-logo"></a>
+  </div>
+<div class="container">
+  <nav class="nav">
+    <ul role="menubar" class="nav-list">
+      <li role="presentation" class="nav-list__item">
+        <a href="index.html" role="menuitem" class="nav-list__link">Home</a>
+      </li>
+      <li role="presentation" class="nav-list__item">
+        <a href="about.html" role="menuitem" class="nav-list__link">About</a>
+      </li>
+      <li  role="presentation" class="nav-list__item">
+        <a href="work.html" role="menuitem" class="nav-list__link">Work</a>
+      </li>
+      <li role="presentation" class="nav-list__item">
+        <a href="contact.html" role="menuitem" class="nav-list__link nav-list__item--active">Contact</a>
+      </li>
+    </ul>
 
-      </nav>
-    </div>
-  </header>
+  </nav>
+</div>
+</header>
   <main>
 
 
-    <div class="contact-paragraph">
-      <h1> Contact </h1>
-      <p> Please insert your email address</p>
-    </div>
-    <form action="#" method="post" id="contact-form">
-      <div clas="input-wrapper">
-        <br><label class="standard-label" for="email">*Email:</label>
-        <input type="email" id="email" placeholder="input@example.com" required>
-      </div>
+  <div class="contact-paragraph">
+    <h1> Contact </h1>
+    <p> Please insert your email address</p>
+  </div>
+  <form action="#" method="post" id="contact-form">
+    <br><label class="standard-label" for="email">*Email:</label>
+    <input type="email" id="email" placeholder="input@example.com" required>
 
-      <div clas="input-wrapper">
-        <br><label class="standard-label" for="tel">Telephone:</label>
-        <input type="tel" id="tel" placeholder="+4912345678900">
-      </div>
+    <br><label class="standard-label" for="tel">Telephone:</label>
+    <input type="tel" id="tel" placeholder="+4912345678900" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
 
-      <div clas="input-wrapper">
-        <br><label class="standard-label" for="msg">*Message:</label>
-        <textarea maxlength="240" id="msg" placeholder="Type your message here" required></textarea>
-        <br><button type="submit" class="button contact-button__submit">Send Message</button>
-      </div>
+    <br><label class="standard-label" for="msg">*Message:</label>
+    <textarea maxlength="240" id="msg" placeholder="Type your message here" required></textarea>
+    <br><button type="submit" class="button contact-button__submit">Send Message</button>
 
-    </form>
+  </form>
 
+  <br><br>
+  <div class="contact-information">
     <br><br>
-    <div class="contact-information">
-      <br><br>
 
-      <p>Tamir Nissim Kahalany
-      <p><br>
-        <br>
-        <a href="mailto:tamiryk6@gmail.com" class="contact-information__link"> tamiryk6@gmail.com </a><br>
-        <a href="tel:+4915252457539" class="contact-information__link">Tel-+49152525457539</a><br>
-        <a href="skype:live:tamiryk6" class="contact-information__link">Skype Id-live:tamiryk6</a>
+      <p>Tamir Nissim Kahalany<p><br>
+      <br>
+      <a href="mailto:tamiryk6@gmail.com" class="contact-information__link"> tamiryk6@gmail.com </a><br>
+      <a href="tel:+4915252457539" class="contact-information__link">Tel-+49152525457539</a><br>
+      <a href="skype:live:tamiryk6" class="contact-information__link">Skype Id-live:tamiryk6</a>
     </div>
-  </main>
-  <footer class="social-media">
+</main>
+<footer class="social-media">
 
-    <p class="social-media-paragraph">Find me on-</p>
+  <p class="social-media-paragraph">Find me on-</p>
 
-    <div>
-      <!--Add ACTUAL social media profiles here-->
-      <a href="https://github.com/TKTamir" target="_blank"><img src="img/github.svg" class="social-media__link"
-          alt="Github"></a>
-      <a href="https://twitter.com" target="_blank"><img src="img/twitter.svg" class="social-media__link"
-          alt="Twitter"></a>
-      <a href="https://linkedin.com" target="_blank"><img src="img/linkedin.svg" class="social-media__link"
-          alt="Linked In"></a>
-    </div>
+  <div>
+  <!--Add ACTUAL social media profiles here-->
+  <a href="https://github.com/TKTamir" target="_blank"><img src="img/github.svg" class="social-media__link" alt="Github"></a>
+  <a href="https://twitter.com" target="_blank"><img src="img/twitter.svg" class="social-media__link" alt="Twitter"></a>
+  <a href="https://linkedin.com" target="_blank"><img src="img/linkedin.svg" class="social-media__link" alt="Linked In"></a>
+  </div>
 
 
 
 
 
-  </footer>
-  <script src = "js/scripts.js"></script>
+</footer>
   <script src="js/tota11y.min.js"></script>
 </body>
 
