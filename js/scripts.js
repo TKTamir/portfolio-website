@@ -39,6 +39,7 @@
 
     function validateTel() {
         let value = telInput.value;
+        const pattern = /^[0-9]$/;
 
         if (!value) {
             showErrorMessage(telInput, 'Telephone is a required field.');
